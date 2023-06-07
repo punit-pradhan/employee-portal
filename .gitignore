@@ -1,0 +1,38 @@
+# Lando specific files and directories
+.lando
+# Lando database files
+*.sql
+# Drupal files and directories
+/sites/*/settings/*.php
+/sites/*/settings/*.yml
+/sites/*/files
+/sites/*/private
+# Composer dependencies
+/vendor
+# Drupal core
+/core
+# Other generated files
+/web/libraries
+/web/modules/contrib
+/web/themes/contrib
+/web/sites/*/services.yml
+/web/sites/*/settings/*.php
+/web/sites/*/settings/*.yml
+/web/sites/*/settings.local.php
+/web/sites/*/files
+/web/sites/*/private
+/web/sites/*/files/.htaccess
+/web/sites/*/private/.htaccess
+# IDE and text editor files
+*.sublime-project
+*.sublime-workspace
+*.idea
+*.iml
+*.ipr
+*.iws
+.settings
+.metadata
+*.vscode
+*.swp
+*~
+.DS_Store
